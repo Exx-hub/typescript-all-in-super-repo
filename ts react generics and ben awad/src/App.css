@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* css for generics component and select list  */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  padding: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+li img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 0.25rem solid transparent;
+  margin-bottom: 0.25rem;
+}
+
+li:hover img {
+  border: 0.25rem dashed rgba(11, 156, 49, 0.4);
+}
+
+li img.selected {
+  border: 0.25rem solid rgba(11, 156, 49, 0.8);
+}
+
+.container {
+  padding: 1rem;
+}
