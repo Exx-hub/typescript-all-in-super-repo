@@ -1,0 +1,21 @@
+.guest-card-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin: 10px auto;
+}
+
+.image-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.age-div {
+  flex: 25%;
+}
+
+.note-div {
+  flex: 30%;
+}
