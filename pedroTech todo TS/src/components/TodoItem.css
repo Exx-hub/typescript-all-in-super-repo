@@ -1,0 +1,17 @@
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-bottom: 5px;
+  transform: translateX(15px);
+  font-weight: bold;
+}
+
+.taskItem button {
+  cursor: pointer;
+  background-color: rgb(77, 194, 194);
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+}
